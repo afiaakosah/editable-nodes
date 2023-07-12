@@ -1,4 +1,4 @@
-# Unit 3: Editable Nodes
+# Editable Nodes Project (HyperText x Hypermedia)
 
 ## Setup  
 
@@ -26,7 +26,7 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.
 
-## Design Questions (10 pts)
+## Design
 The use case this web-app addresses is that of students. It gives students the ability to 
 take notes in lectures, meetings, and most anything else. The features I chose to implement, 
 namely strike, heading, and blockquote, address various needs for students. The strike button 
@@ -39,10 +39,6 @@ and to-do lists under different topics and/or dates.
 ## Notable Design Choices
 Clicking "start link" on a temporal node will create the anchor extent at the timestamp
 at which you clicked "start link". 
-
-## Deployed Backend URL
-
-## Deployed Frontend URL
 
 ## Known Bugs
 Image resizing
@@ -61,6 +57,3 @@ Temporal Media
 
 Visualisation Modal
     - The randomly generated postions aren't perfect so sometimes not all nodes appear. 
-    
-## Estimated Hours Taken
-50 hours
