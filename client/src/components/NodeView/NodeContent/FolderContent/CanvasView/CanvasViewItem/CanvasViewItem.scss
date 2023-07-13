@@ -1,0 +1,67 @@
+@import '../../../../../../global/globalCssVariables';
+
+.node-Preview {
+  color: black;
+  cursor: pointer;
+  width: 230px;
+  height: 270px;
+  border-radius: 5px;
+  background-color: white;
+  border: $standard-border;
+  display: flex;
+  flex-direction: column;
+  transition: 0.2s;
+  position: absolute;
+
+  .content-preview {
+    overflow: hidden;
+    height: 100%;
+    border-bottom: $standard-border;
+    padding: 2px;
+    background-color: $secondary-background-color;
+
+    &:hover {
+      box-shadow: $standard-shadow;
+    }
+  }
+
+  .node-info {
+    display: block;
+    position: relative;
+    height: 30%;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    padding: 20px;
+
+    .info-container {
+      width: 100%;
+
+      .main-info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+
+        .icon {
+          height: 20px;
+        }
+
+        .title {
+          font-weight: 400;
+          font-size: 1rem;
+          font-weight: bold;
+          padding-bottom: 0px;
+          width: 100%;
+          text-overflow: ellipsis;
+          overflow: hidden;
+        }
+      }
+
+      .sub-info {
+        font-size: 0.7rem;
+        color: #606060;
+      }
+    }
+  }
+}

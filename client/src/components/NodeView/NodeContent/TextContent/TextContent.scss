@@ -1,0 +1,68 @@
+@import '../../../../global/globalCssVariables';
+
+.ProseMirror {
+  a {
+    color: blue !important;
+    text-decoration: underline !important;
+    cursor: pointer;
+  }
+
+  blockquote {
+    border-left: 3px solid rgba(#0d0d0d, 0.1);
+    padding-left: 1rem;
+  }
+
+  hr {
+    border: none;
+    border-top: 2px solid rgba(#0D0D0D, 0.1);
+    margin: 2rem 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    line-height: 3;
+    font-size: 16px;
+    font-weight: 250;
+  }
+
+}
+
+li {
+  padding: 0 1rem;
+  list-style-position: inside;
+}
+
+  .textEditorButton {
+    width: max-content;
+    height: 30px;
+    font-size: 15px;
+    padding: 3px 15px;
+    border-radius: 5px;
+    gap: 5px;
+    margin: 3px;
+    background-color: $secondary-background-color;
+    transition: 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(167, 167, 239);
+      opacity: 0.5;
+    }
+  }
+
+  .active-textEditorButton {
+    width: max-content;
+    height: 30px;
+    font-size: 15px;
+    padding: 3px 15px;
+    border-radius: 5px;
+    gap: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin: 3px;
+    background-color: goldenrod;
+  } 
